@@ -1,4 +1,7 @@
 node{
+    checkout([$class:'GitSCM',
+        branches:[[name:'*/main']],
+        userRemoteConfigs:[[url:'https://github.com/gem-kartikey/jenkins_node']]])
     stage('build')
     {
         sh 'pwd'
