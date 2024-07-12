@@ -7,5 +7,5 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(5050,(err)=>{
-    (err)?console.log(err.message):console.log(`server is online at http://localhost:5000`)
+    (err)?console.log(err.message):console.log(`server is online at http://localhost:5050`)
 })
